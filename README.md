@@ -17,7 +17,7 @@ Clank Validation is an AngularJS module to supply client-side form validation. C
   - textarea
   - select
 
-To initialize Clank Validation on a form add the "clank-validation" attribute to a <form> element.
+To initialize Clank Validation on a form add the "clank-validation" attribute to a form element.
 ```html
 <form clank-validation></form>
 ```
