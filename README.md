@@ -1,5 +1,4 @@
-Clank Validation is a module to supply client-side form validation. Clank Validation currently
-supports the follow list of field types:
+Clank Validation is an AngularJS module to supply client-side form validation. Clank Validation currently supports the follow list of field types:
   - input[type="text"]
   - input[type="email"]
   - input[type="radio"]
@@ -19,8 +18,9 @@ supports the follow list of field types:
   - select
 
 To initialize Clank Validation on a form add the "clank-validation" attribute to a <form> element.
-EX. <form clank-validation></form>
-
+```
+<form clank-validation></form>
+```
 
 To use a custom module classname, instead of 'clank_validation', give the clank-validation attribute a value.
 EX. <form clank-validation="error_message"></form>
