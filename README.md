@@ -26,7 +26,7 @@ To initialize Clank Validation on a form add the "clank-validation" attribute to
 ```
 
 ## Auto-validation
-You can enable auto validation by setting the "clank-validation-auto-validate" attribute to true.
+You can enable auto validation by setting the "clank-validation-auto-validate" attribute to true. This will validate individual fields after the user has interacted with them.
 ```html
 <form clank-validation clank-validation-auto-validate="true">
 ```
