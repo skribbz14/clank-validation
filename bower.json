@@ -1,0 +1,16 @@
+{
+  "name": "clank-validation",
+  "main": "clank-validation.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/skribbz14/clank-validation",
+  "authors": [
+    "skribbz14 <kyle@looseygooseyart.com>"
+  ],
+  "description": "Clank Validation is an AngularJS 1.x module for client-side validation of a form.",
+  "keywords": [
+    "AngularJS",
+    "Clank",
+    "Validation"
+  ],
+  "license": "MIT"
+}
