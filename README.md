@@ -44,26 +44,31 @@ You may specify a min/max character limit on all textboxes using the "clank-vali
 
 Selectboxes can specify if whether or not the default answer is invalid or not using the "clank-validation-default" attribute.
 ```html
-<select clank-validation-default="invalid" required>```
+<select clank-validation-default="invalid" required>
+```
   
 
 Checkboxes can specify whether they have a minimum or maximum requirement by setting the "clank-validation-min" or "clank-validation-max" attribute on the first checkbox in the group.
 ```html
-<input type="checkbox" name="checkbox_group" value="example" clank-validation-min="2" clank-validation-max="4" required>```
+<input type="checkbox" name="checkbox_group" value="example" clank-validation-min="2" clank-validation-max="4" required>
+```
   
 
 Checkboxes and radio buttons can specify where the error message should be inserted in the DOM using the "clank-validation-insert-after" attribute on the first item in the group and passing  it a selector value. It's important to note that this will not have the <validation-message> printed  within the given selector, but inserted immediately after the qualified element. 
 ```html
-<input type="checkbox" name="checkbox_group" value="example" clank-validation-insert-after=".any_selector_type" required>```
+<input type="checkbox" name="checkbox_group" value="example" clank-validation-insert-after=".any_selector_type" required>
+```
   
 
 Color fields have the ability for you to declare black as invalid using the "clank-validation-black-invalid" attribute.
 ```html
-<input type="color" clank-validation-black-invalid="true" required>```
+<input type="color" clank-validation-black-invalid="true" required>
+```
   
 Range fields can be have their default value specified to be invalid by applying the "clank-validation-default" attribute to the range input. 
 ```html
-<input type="range" value="0" min="0" max="10" clank-validation-default="0" required>```
+<input type="range" value="0" min="0" max="10" clank-validation-default="0" required>
+```
 
 
 
