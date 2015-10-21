@@ -1,0 +1,11 @@
+validation-message{
+  display:block;
+  
+  &[status="failed"]{
+    color:red;
+  }
+  
+  &[status="passed"]{
+    color:#bada55;
+  }
+}
