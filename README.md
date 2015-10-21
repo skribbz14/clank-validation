@@ -25,6 +25,12 @@ To initialize Clank Validation on a form add the "clank-validation" attribute to
 <form clank-validation></form>
 ```
 
+## Auto-validation
+You can enable auto validation by setting the "clank-validation-auto-validate" attribute to true.
+```html
+<form clank-validation clank-validation-auto-validate="true">
+```
+
 ## Class names
 To use a custom module classname, instead of 'clank_validation', give the clank-validation attribute a value.
 ```html
