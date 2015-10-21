@@ -1,4 +1,4 @@
-Clank Validation is an AngularJS module to supply client-side form validation.
+Clank Validation is an AngularJS 1.x module to supply client-side form validation.
 
 ## Supported field types:
   - input[type="text"]
